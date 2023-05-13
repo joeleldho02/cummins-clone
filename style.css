@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+ }
+.hero-container,
+.hero-container .carousel-item .slide-img{
+    height: 100vh;
+}
+.hero-container .overlay-div{
+    top:300px;
+    left:150px;
+}
+.content-3 img{
+    height:80vh;
+}
+.content-3 .overlay-div{
+    top:300px;
+    left:100px;
+}
+.content-4 .card-img-overlay{
+    top:80px;
+    left:50px;
+}
+.content-4 .card img{
+    border-radius: 0px 0px 40px 40px;
+}
+
+/* Multi Item Carousel */
+
+@media (max-width: 767px) {
+    .content-5 .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .content-5 .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.content-5 .carousel-inner .carousel-item.active,
+.content-5 .carousel-inner .carousel-item-next,
+.content-5 .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .content-5 .carousel-inner .carousel-item-end.active,
+    .content-5 .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .content-5 .carousel-inner .carousel-item-start.active, 
+    .content-5 .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.content-5 .carousel-inner .carousel-item-end,
+.content-5 .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+
+.connect-box{
+    background-color: rgb(174, 174, 176);
+    border-radius: 50px 0px 0px 0px;
+    overflow: hidden;
+    background-image: url(images/bg/5.jpg);
+    background-size: 100% 100%;
+    padding:60px;
+}
+.connect-box img{
+    top:0;
+    right:0;
+}
+.connect-icon-box i{
+    background-color: #393939;
+    color: #fff;
+    padding:15px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 20px;
+}
