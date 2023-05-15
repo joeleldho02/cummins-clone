@@ -170,27 +170,37 @@ a{
 .content-6 .t3-bold{
     font-size: 29px;
 }
-.content-6-title{
+.content-6-title,
+.content-5-title{
     color:#706f6f;
     font-weight: 400;
 }
-.content-6-title::after{
+.content-6-title::after,
+.content-5-title::after{
     content:'';
-    width: 50%;
+    width: 40%;
     height: 1px;
     background: #9a9a9a;
     display: block;
     right:0;
 }
 .content-6 .btn,
-.content-2 .btn{
+.content-2 .btn,
+.content-5 .btn{
     color:#da291c;
 }
 .content-6 .btn i,
-.content-2 .btn i{
+.content-2 .btn i,
+.content-5 .btn i{
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
     border-radius: 100%;
     padding: 2px 5px;
+    transition: 0.4s;
+}
+.content-6 .btn i:hover,
+.content-2 .btn i:hover,
+.content-5 .btn i:hover{
+    translate: 20% 0%;
 }
 /* Multi Item Carousel */
 
