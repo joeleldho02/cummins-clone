@@ -1,427 +1,1141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Cummins | A Global Power Technology Leader</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta description="" />
-    <meta keywords="cummins, generator, engine, accelera truck, truck engines, evt truck, electric truck, technology"/>
-    <meta author="" />
-    <link rel="icon" href="images/black-logo.png" type="image/icon type">
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css" 
-    integrity="sha512-WidMaWaNmZqjk3gDE6KBFCoDpBz9stTsTZZTeocfq/eDNkLfpakEd7qR0bPejvy/x0iT0dvzIq4IirnBtVer5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" 
-    integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" 
-      rel="stylesheet">
-  </head>
-  <body>
-    <nav></nav>
-    <main>
-    <!-- <main style="background-color: chartreuse;"> -->
-      <!-- Carousel 1 -->
-      <section class="hero-container container-fluid p-0 ">
-        <div id="demo" class="carousel slide p-0" data-bs-ride="carousel">
-          <!-- Indicators/dots -->
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#demo"
-              data-bs-slide-to="0"
-              class="active w-md-100 w-50 mx-md-5"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#demo"
-              data-bs-slide-to="1"
-              class="w-md-100 w-50 mx-md-5"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#demo"
-              data-bs-slide-to="2"
-              class="w-md-100 w-50 mx-md-5"
-            ></button>
+
+<head>
+  <title>Cummins | A Global Power Technology Leader</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta description="" />
+  <meta keywords="cummins, generator, engine, accelera truck, truck engines, evt truck, electric truck, technology" />
+  <meta author="joel eldho" />
+  <link rel="icon" href="images/black-logo.png" type="image/icon type">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/regular.min.css"
+    integrity="sha512-WidMaWaNmZqjk3gDE6KBFCoDpBz9stTsTZZTeocfq/eDNkLfpakEd7qR0bPejvy/x0iT0dvzIq4IirnBtVer5A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+    integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  
+  <main>
+    <!-- NavBar Transparent -->
+    <div id="navbar" class="container-fluid transparent-nav px-4 pb-3 pt-3 d-none d-md-block navbar-expand-lg">
+      <div class="nav-bar">
+        <div class="nav-header float-end">
+          <ul>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass mx-2 "></i>Search</a></li>
+            <li><a href="#"><i class="fa-solid fa-location-dot mx-2"></i>Location</a></li>
+            <li><a href="#"><i class="fa-solid fa-globe mx-2"></i>India</a></li>
+          </ul>
+        </div>
+        <div class="nav-bottom align-items-center mt-2">
+          <div class="logo">
+            <img class="logo-img logo1" src="images/white-logo.gif" alt="cummins-logo">
+            <img class="logo-img logo2" src="images/black-logo.png" alt="cummins-logo">
           </div>
-          <!-- The slideshow/carousel -->
-          <div class="carousel-inner p-0">
-            <div class="carousel-item position-relative active p-0">
-              <img
-                src="images/bg/1.jpg"
-                alt="Los Angeles"
-                class="d-block w-100 m-auto slide-img"
-              />
-              <div class="carousel-caption">
-                <p class="h6">The future of commericial mobility</p>
+           <ul class="mt-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Engines</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Generatos and Power Systems</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Components</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Parts and Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul> 
+          <!-- copy paste 
+          <ul class="menu__items" style="--gap: 29.22px;">
+            <li class="menu__item menu__level--0 menu__label-engines menu__item--expanded nav-link">
+              <div class="menu__link ">
+                <a href="#" class="mit-1">Engines</a>
+                <button class="menu-item__caret" aria-label="Open Submenu for Engines"><i class="fa-solid fa-globe mx-2"></i></button>
               </div>
-              <div class="col-md-4 position-absolute overlay-div">
-                <p class="h1 text-light text-uppercase">The future of commericial mobility</p>
-                <p class="h4 text-light">
-                  Shifting energy mix, reduced carbon, software innovation and autononmous driving.
-                </p>
-                <button class="btn btn-danger text-uppercase">see the future</button>
+              <div class="menu-item__dropdown mitd-1">
+                <div class="menu-item__dropdown-inner">
+                  <div class="menu-item__dropdown-nav d-flex">
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <button>Solutions</button>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Accelera</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">G-Drive Engines</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Pump Drives</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Browse Engines</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Off-Highway</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Agriculture</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Compressor Engines</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Construction</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Marine</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Mining</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Oil and Gas</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Rail</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">On-Highway</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Truck</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Resources</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">BSIV Engines</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">BSVI Engines</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Biodiesel FAQs</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Case Studies</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Emissions Testing Program</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Engine Brochures</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">How a diesel engine works</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Integrated Power</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
+            </li>
+            <li class="menu__item menu__level--0 menu__label-generators-and-power-systems menu__item--expanded">
+              <div class="menu__link mit-2">
+                <a href="#">Generators and Power Systems</a>
+                <button class="menu-item__caret" aria-label="Open Submenu for Generators and Power Systems"></button>
+              </div>
+              <div class="menu-item__dropdown mitd-2">
+                <div class="menu-item__dropdown-inner">
+                  <div class="menu-item__dropdown-nav d-flex">
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Solutions</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Integrated Power Systems</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Alternators</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Transfer Switches</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Generator Set Controls</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">System Level Controls and Switchgear</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Browse Generators</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Industries</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Data Centers</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Healthcare</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Hospitality</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Infrastructure</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Manufacturing</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Marine</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Realty</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Resources</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Acoustical Technology Center</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Power Integration Center</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Technical Support</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Warranty</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Continuing Education</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Brochures</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Case Studies</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Become a Dealer</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item menu__level--0 menu__label-components menu__item--expanded">
+              <div class="menu__link mit-3">
+                <a href="#">Components</a>
+                <button class="menu-item__caret" aria-label="Open Submenu for Components"></button>
+              </div>
+              <div class="menu-item__dropdown mitd-3 bg-info">
+                <div class="menu-item__dropdown-inner">
+                  <div class="menu-item__dropdown-nav d-flex">
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Turbochargers</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Holset Turbochargers</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Power Turbines</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Two-Stage Systems</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Turbo Componentry</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Turbocharger Brochures</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Aftertreatment</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Emission Solutions</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">On-Highway Applications</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Off-Highway Applications</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Aftertreatment Innovation</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Aftertreatment Brochures</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Engineered Components</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Off-highway Aftertreatment</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">On-highway Aftertreatment</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Components Care Centers</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Electronics and Fuel Systems</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Electronics</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Fuel Systems</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Aftermarket &amp;
+                          Remanufacturing</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Filtration</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item menu__level--0 menu__label-parts-and-service menu__item--expanded">
+              <div class="menu__link mit-4">
+                <a href="#">Parts and Service</a>
+                <button class="menu-item__caret" aria-label="Open Submenu for Parts and Service"></button>
+              </div>
+              <div class="menu-item__dropdown mitd-4">
+                <div class="menu-item__dropdown-inner">
+                  <div class="menu-item__dropdown-nav d-flex">
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="/parts">Parts</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#://parts.cummins.com/">Parts Catalog</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Why Buy Genuine</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">ReCon</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Allied Products</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Repair and Overhaul</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Sales and Service</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Request a Quote</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Locations</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Maintenance</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">HHP Master Rebuild Centers</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Service Agreements</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Service in India</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Manuals and Technical Info</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Planned Maintenance</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Digital Products</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Acumen</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Guidanz</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Incal</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Inline</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Insite</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">OptiTech</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">PrevenTech</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">View All</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item menu__level--0 menu__label-technology menu__item--expanded">
+              <div class="menu__link mit-5">
+                <a href="#">Technology</a>
+                <button class="menu-item__caret" aria-label="Open Submenu for Technology"></button>
+              </div>
+              <div class="menu-item__dropdown menu-item__dropdown--cta mitd-5">
+                <div class="menu-item__dropdown-inner">
+                  <div class="menu-item__dropdown-nav d-flex">
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Accelera</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Hydrogen Engines</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Natural Gas Engines</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a
+                          href="#">FiberRed</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="menu-item__callout">
+                    <div class="menu-item__callout-image">
+                      <img src="https://www.cummins.com/sites/default/files/2023-04/winding-road-through-forest_0.jpg"
+                        alt="Callout" class="w-25">
+                    </div>
+                    <div class="menu-item__callout-content">
+                      <div class="menu-item__callout-title">
+                        Destination Zero, powered by Cummins
+                      </div>
+                      <div class="menu-item__callout-btn">
+                        <a class="btn btn--primary btn--icon " href="#">
+                          <span class="btn__text">Learn more</span> <span class="btn__icon"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item menu__level--0 menu__label-company menu__item--expanded">
+              <div class="menu__link mit-6">
+                <a href="#">Company</a>
+                <button class="menu-item__caret" aria-label="Open Submenu for Company"></button>
+              </div>
+              <div class="menu-item__dropdown menu-item__dropdown--cta mitd-6">
+                <div class="menu-item__dropdown-inner">
+                  <div class="menu-item__dropdown-nav d-flex">
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Cummins India</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">India Companies</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Board of Directors - Cummins
+                          India Limited</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">India Leadership</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">India Awards and Recognition</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">India Corporate Responsibility</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">India Legacy</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">India Office and Plant Locations</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <button>Disclosures under Reg 46 of SEBI (LODR)</button>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Cummins India Investors Overview</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Cummins India Shareholding</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Corporate Governance</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Investor Analyst</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Investor Enquiry</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Investor Presentations</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Stock Quote</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">ESG</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Environment</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Social</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Governance</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Diversity, Equity and Inclusion</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Policy Positions</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Sustainability Reports</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Careers</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Career Paths</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Working at Cummins</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Accommodation</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Cummins
+                          India at SWE Local 2023</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Newsroom</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Media Contacts</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Press Resources</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="menu-item__callout">
+                    <div class="menu-item__callout-image">
+                      <img src="https://www.cummins.com/sites/default/files/2023-04/careers-cta_1.jpg" alt="Callout"
+                        class="w-50">
+                    </div>
+                    <div class="menu-item__callout-content">
+                      <div class="menu-item__callout-title">
+                        Search open jobs
+                      </div>
+                      <div class="menu-item__callout-btn">
+                        <a class="btn btn--primary btn--icon " href="https://cummins.jobs">
+                          <span class="btn__text">Join us</span> <span class="btn__icon"></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item menu__level--0 menu__label-support menu__item--expanded">
+              <div class="menu__link mit-7">
+                <a href="#">Support</a>
+                <button class="menu-item__caret" aria-label="Open Submenu for Support"></button>
+              </div>
+              <div class="menu-item__dropdown mitd-7">
+                <div class="menu-item__dropdown-inner">
+                  <div class="menu-item__dropdown-nav d-flex">
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Cummins Care</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <a href="#">Digital Products</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Insite</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Incal</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Guidanz</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Inline</a>
+                      </li>
+                    </ul>
+                    <ul class="menu-item__dropdown-list d-flex flex-column gap-1">
+                      <li class="menu-item__dropdown-list--level-1">
+                        <button>Resources</button>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Engine Manuals</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Product Registration</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Safety Datasheets</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Warranty Information</a>
+                      </li>
+                      <li class="menu-item__dropdown-list--level-2">
+                        <a href="#">Responsible Disclosure</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          copy paste finish -->
+          <div class="col"></div>
+          <div class="float-end">
+            <button class="btn btn-request rounded-0 text-uppercase d-none d-md-block">request a quote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- NavBar Transparent Sticky  -->
+  <nav class="navbar position-absolute navbar1 navbar-expand-lg bg-transparent d-md-none top-0">
+    <div class="container-fluid ">
+      <img src="images/white-logo.gif" class="p-0 mx-3">
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav text-black ">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Engines</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Generators and Power Systems</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Components</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Parts and Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Support</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-inline d-md-none col"></div>
+      <div class="right-nav-icons d-flex float-end align-items-center">
+        <i class="fa-solid fa-magnifying-glass mx-3 fa-2x text-white"></i>
+        <i class="fa-solid fa-globe mx-3 fa-2x text-white"></i>
+        <a href="#" class="btn btn-request text-uppercase rounded-0 text-nowrap d-none d-md-inline mx-3"> request a
+          quote</a>
+      </div>
+      <button class="navbar-toggler bg-transparent border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar">
+        <span class=""><i class="fa-solid fa-bars fs-2 text-white"></i></span>
+      </button>
+    </div>
+  </nav>
+    <!-- Carousel 1 -->
+    <section class="hero-container container-fluid p-0 ">
+      <div id="demo" class="carousel slide p-0" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+            class="active w-md-100 w-50 mx-md-5"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="w-md-100 w-50 mx-md-5"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="w-md-100 w-50 mx-md-5"></button>
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner p-0">
+          <div class="carousel-item position-relative active p-0">
+            <div class="img-gradient">
+              <img src="images/bg/1.jpg" alt="Los Angeles" class="d-block w-100 m-auto slide-img" />
             </div>
-            <div class="carousel-item position-relative">
-              <img
-                src="images/bg/2.jpg"
-                alt="Chicago"
-                class="d-block w-100 m-auto slide-img"
-              />
-              <div class="carousel-caption">
-                <p class="h6">Meet Accelera</p>
-              </div>
-              <div class="col-md-4 position-absolute overlay-div">
-                <p class="h1 text-light text-uppercase">Meet Accelera</p>
-                <p class="h4 text-light">
-                  A Cummins brand dedicated to zero emmissions
-                </p>
-                <button class="btn btn-danger text-uppercase">learn more</button>
-              </div>
+            <div class="carousel-caption">
+              <p class="h6">The future of commericial mobility</p>
             </div>
-            <div class="carousel-item position-relative">
-              <img
-                src="images/bg/3.jpg"
-                alt="New York"
-                class="d-block w-100 m-auto slide-img"
-              />
-              <div class="carousel-caption">
-                <p class="h6 fw-bold">Power with purpose</p>
-              </div>
-              <div class="col-md-4 position-absolute overlay-div">
-                <p class="h1 text-light fw-bold text-uppercase">Power with purpose</p>
-                <p class="h4 text-light ">
-                  We're pioneering new technologies to sustainably power future generations.
-                </p>
-                <button class="btn btn-danger text-uppercase">learn more</button>
-              </div>
+            <div class="col-md-4 position-absolute overlay-div">
+              <p class="t2-bold text-light text-uppercase">The future of commericial mobility</p>
+              <p class="p1 text-light">
+                Shifting energy mix, reduced carbon, software innovation and autononmous driving.
+              </p>
+              <button class="btn btn-request rounded-0 text-uppercase">see the future</button>
             </div>
           </div>
-          <!-- Left and right controls/icons -->
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#demo"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon"></span>
+          <div class="carousel-item position-relative">
+            <div class="img-gradient">
+              <img src="images/bg/2.jpg" alt="Los Angeles" class="d-block w-100 m-auto slide-img" />
+            </div>
+            <div class="carousel-caption">
+              <p class="h6">Meet Accelera</p>
+            </div>
+            <div class="col-md-4 position-absolute overlay-div">
+              <p class="t2-bold text-light text-uppercase">Meet Accelera</p>
+              <p class="p1 text-light">
+                A Cummins brand dedicated to zero emmissions
+              </p>
+              <button class="btn btn-request rounded-0 text-uppercase">learn more</button>
+            </div>
+          </div>
+          <div class="carousel-item position-relative">
+            <div class="img-gradient">
+              <img src="images/bg/3.jpg" alt="Los Angeles" class="d-block w-100 m-auto slide-img" />
+            </div>
+            <div class="carousel-caption">
+              <p class="h6 fw-bold">Power with purpose</p>
+            </div>
+            <div class="col-md-4 position-absolute overlay-div">
+              <p class="t2-bold text-light fw-bold text-uppercase">Power with purpose</p>
+              <p class="p1 text-light ">
+                We're pioneering new technologies to sustainably power future generations.
+              </p>
+              <button class="btn btn-request rounded-0 text-uppercase">learn more</button>
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <i class="fa-solid fa-chevron-left rounded-circle bg-white p-3 px-4 fs-4 text-black"></i>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <i class="fa-solid fa-chevron-right rounded-circle bg-white p-3 px-4 fs-4 text-black"></i>
+        </button>
+      </div>
+    </section>
+    <!-- NavBar Sticky -->
+  <nav class="navbar navbar-expand-lg bg-light navbar-light position-sticky top-0">
+    <div class="container-fluid ">
+      <img src="images/black-logo.png" class="p-0 mx-3">
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav text-black">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Engines</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Generators and Power Systems</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Components</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Parts and Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Support</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-inline d-md-none col"></div>
+      <div class="right-nav-icons d-flex float-end align-items-center">
+        <i class="fa-solid fa-magnifying-glass mx-3 fa-2x"></i>
+        <i class="fa-solid fa-globe mx-3 fa-2x"></i>
+        <a href="#" class="btn btn-request text-uppercase rounded-0 text-nowrap d-none d-md-inline mx-3"> request a
+          quote</a>
+      </div>
+      <button class="navbar-toggler bg-transparent border-0" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavbar">
+        <span class=""><i class="fa-solid fa-bars fs-2"></i></span>
+      </button>
+    </div>
+  </nav>
+    <!-- Always Innovating -->
+    <section class="container pt-5 pb-5 content-1 ">
+      <p class="text-center t2-bold">ALWAYS INNOVATING</p>
+      <div class="row p-5">
+        <div class="col-md-3 col-sm-6 text-center">
+          <img src="images/main-content/1.jpg" class="w-100" />
+          <p class="t3-bold pt-3">Engines</p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center">
+          <img src="images/main-content/2.jpg" class="w-100" />
+          <p class="t3-bold pt-3">Generators and Power Systems</p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center">
+          <img src="images/main-content/3.jpg" class="w-100" />
+          <p class="t3-bold pt-3">Accelera</p>
+        </div>
+        <div class="col-md-3 col-sm-6 text-center">
+          <img src="images/main-content/4.jpg" class="w-100" />
+          <p class="t3-bold pt-3">Components</p>
+        </div>
+      </div>
+    </section>
+    <!-- Always Customer Dirven -->
+    <section class="container content-2 ">
+      <p class="text-center t2-bold">ALWAYS CUSTOMER DRIVEN</p>
+      <div class="row p-md-5 p-3 pb-0">
+        <div class="col-md-6">
+          <img src="images/main-content/5.jpg" class="w-100" />
+        </div>
+        <div class="col-md-6 p-md-4 p-3">
+          <p class="t3-bold">
+            With more than 9,000 locations around the world, service is always
+            nearby.
+          </p>
+          <p>
+            Whether you're in a remote location or in the heart of the city,
+            count on us to support you with thousands of service locations,
+            connected solutions that minimize downtime, and expert support
+            throughout your equipment’s life cycle.
+          </p>
+          <button class="btn bg-transparent text-danger">
+            FIND A LOCATION <i class="fa-solid fa-chevron-right ms-3"></i>
           </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#demo"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon"></span>
-          </button>
         </div>
-      </section>
-      <!-- Always Innovating -->
-      <section class="container pt-5 pb-5 content-1 ">
-        <p class="text-center t2-bold">ALWAYS INNOVATING</p>
-        <div class="row p-5">
-          <div class="col-md-3 col-sm-6 text-center">
-            <img src="images/main-content/1.jpg" class="w-100" />
-            <p class="t3-bold pt-3">Engines</p>
-          </div>
-          <div class="col-md-3 col-sm-6 text-center">
-            <img src="images/main-content/2.jpg" class="w-100" />
-            <p class="t3-bold pt-3">Generators and Power Systems</p>
-          </div>
-          <div class="col-md-3 col-sm-6 text-center">
-            <img src="images/main-content/3.jpg" class="w-100" />
-            <p class="t3-bold pt-3">Accelera</p>
-          </div>
-          <div class="col-md-3 col-sm-6 text-center">
-            <img src="images/main-content/4.jpg" class="w-100" />
-            <p class="t3-bold pt-3">Components</p>
-          </div>
+      </div>
+    </section>
+    <!-- Prosperous World -->
+    <section class="container-fluid p-0 ">
+      <p class="text-center t2-bold p-5">POWERING A MORE PROSPEROUS WORLD</p>
+      <div class="content-3 justify-content-md-start vertical-center">
+        <div class="col-md-5 overlay-div ms-md-5">
+          <p class="t1-bold text-light">THE FUTURE <br>PULLS US FORWARD</p>
+          <p class="t6-bold text-light">
+            We are Cummins. We create the power solutions that the world depends
+            on. However good we are today, we know the best is yet to come.
+          </p>
+          <button class="btn rounded-pill p-3 px-4 fw-bold">WATCH OUR STORY</button>
         </div>
-      </section>
-      <!-- Always Customer Dirven -->
-      <section class="container content-2 ">
-        <p class="text-center t2-bold">ALWAYS CUSTOMER DRIVEN</p>
-        <div class="row p-md-5 p-3 pb-0">
-          <div class="col-md-6">
-            <img src="images/main-content/5.jpg" class="w-100" />
-          </div>
-          <div class="col-md-6 p-md-4 p-3">
-            <p class="t3-bold">
-              With more than 9,000 locations around the world, service is always
-              nearby.
-            </p>
-            <p>
-              Whether you're in a remote location or in the heart of the city,
-              count on us to support you with thousands of service locations,
-              connected solutions that minimize downtime, and expert support
-              throughout your equipment’s life cycle.
-            </p>
-            <button class="btn bg-transparent text-danger">
-              FIND A LOCATION <i class="fa-solid fa-chevron-right ms-3"></i>
-            </button>
-          </div>
-        </div>
-      </section>
-      <!-- Prosperous World -->
-      <section class="container-fluid p-0 ">
-        <p class="text-center t2-bold p-5">POWERING A MORE PROSPEROUS WORLD</p>
-        <div class="content-3 justify-content-md-start vertical-center">
-          <div class="col-md-5 overlay-div ms-md-5">
-            <p class="t1-bold text-light">THE FUTURE <br>PULLS US FORWARD</p>
-            <p class="t6-bold text-light">
-              We are Cummins. We create the power solutions that the world depends
-              on. However good we are today, we know the best is yet to come.
-            </p>
-            <button class="btn rounded-pill p-3 px-4 fw-bold">WATCH OUR STORY</button>
-          </div>
-        </div>
-      </section>
-      <!-- Always Responsible -->
-      <section class="container content-4 py-5 overflow-auto">
-        <p class="text-center t2-bold text-uppercase">always responsible</p>
-        <div class="row mt-4 gap-4">
-          <div class="card col-md-6 border-0 top-card p-0 gap overflow-hidden">
-            <img
-              class="card-img-top"
-              src="images/main-content/6.jpg"
-              alt="Card image"
-            />
-            <div class="card-img-overlay text-light bg-dark">
-              <p class="h4 text-uppercase">cummins careers</p>
-              <hr class="hr w-25">
-              <h2 class="card-title text-uppercase">power your potential</h2>
-              <div class="row align-content-end">
-                <p class="card-text h6 col-md-6 ">An appetite for innovation. 
-                A respect for our culture of inclusion. A desire to be a part of something 
+      </div>
+    </section>
+    <!-- Always Responsible -->
+    <section class="container-fluid content-4 py-5 overflow-auto">
+      <p class="text-center t2-bold text-uppercase">always responsible</p>
+      <div class="row mt-4 gap-4 justify-content-evenly">
+        <div class="card col-md-6 border-0 top-card p-0 overflow-hidden">
+          <img class="card-img-top" src="images/main-content/6.jpg" alt="Card image" />
+          <div class="card-img-overlay text-light">
+            <p class="content-4-title text-uppercase">cummins careers</p>
+            <h2 class="card-title t4-bold text-uppercase">power your potential</h2>
+            <div class="row align-content-end">
+              <p class="card-text d-none d-lg-block h6 col-md-6 ">An appetite for innovation.
+                A respect for our culture of inclusion. A desire to be a part of something
                 bigger than yourself. That’s what we value. </p>
-              <a href="#" class="btn col-md-6 text-light text-start text-md-center text-uppercase">explore careers</a>
-              </div>
-            </div>
-          </div>
-          <div class="card col-md-6 border-0 bottom-card p-0 overflow-hidden">
-            <img
-              class="card-img-top"
-              src="images/main-content/7.jpg"
-              alt="Card image"
-            />
-            <div class="card-img-overlay text-light bg-danger">
-              <p class="h4 text-uppercase">Cummins sustainability</p>
-              <hr class="hr w-25">
-              <h2 class="card-title text-uppercase">Our commitment</h2>
-              <div class="row">
-                <p class="card-text h6 col-md-6">Our environmental, social and governance 
-                  strategy focuses on reducing emissions, using natural resources responsibly, 
-                  and helping communities address real environmental challenges. </p>
-                <a href="#" class="btn col-md-6 text-light text-start text-md-center text-uppercase">explore sustainability</a>
-              </div>
+              <a href="#" class="btn col-md-6 text-light text-start text-md-center text-uppercase text-nowrap">explore careers
+                <i class="fa-solid fa-chevron-right ms-5"></i>
+              </a>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Efforts meets oppurtunities -->
-      <section class="container-fluid content-6 d-none d-md-block p-5 py-3">
-        <p class="text-center t2-bold text-uppercase">When efforts meet opportunities</p>
-        <div class="row">
-          <div class="col-md-6">
-            <img src="images/main-content/8.jpg" class="w-100">
-          </div>
-          <div class="col-md-6">
-            <p class="content-6-title text-uppercase">CUMMINS SCHOLARSHIP PROGRAM</p>
-            <p class="t3-bold">Nurturing Brilliance</p>
-            <a href="#" class="btn col-6 text-uppercase fw-bolder text-start p-0">learn more 
-              <i class="fa-solid fa-chevron-right ms-3"></i></a>
+        <div class="card col-md-6 border-0 bottom-card p-0 overflow-hidden">
+          <img class="card-img-top" src="images/main-content/7.jpg" alt="Card image" />
+          <div class="card-img-overlay text-light">
+            <p class=" content-4-title text-uppercase">Cummins sustainability</p>
+            <h2 class="card-title t4-bold text-uppercase">Our commitment</h2>
+            <div class="row align-content-end">
+              <p class="card-text d-none d-lg-block t6-bold col-md-6">Our environmental, social and governance
+                strategy focuses on reducing emissions, using natural resources responsibly,
+                and helping communities address real environmental challenges. </p>
+              <a href="#" class="btn col-lg-6 text-light text-start text-lg-center text-uppercase text-nowrap">explore
+                sustainability <i class="fa-solid fa-chevron-right ms-5"></i> </a>
+            </div>
           </div>
         </div>
-      </section>
-      <!-- Always Trusted | Carousel 2-->
-      <section class="container content-5 mt-5">
-        <p class="text-center t2-bold text-uppercase">always Trusted</p>
-        <!-- Multi Item Carousel -->
-        <div class="container text-center my-3">
-          <div class="row mx-auto my-auto justify-content-center">
-            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <div class="col-lg-4 text-center vertical-center ">
-                    <div class="row">
-                      <div class="col-5 vertical-center">
-                        <img src="images/main-content/13.jpg" class="img-fluid rounded-circle">
-                      </div>
-                      <div class="col-7 row-text text-start">
-                        <p class="content-5-title">JUN 20, 2022</p>
-                        <p class="t6-bold">Credible Path to Decarbonized Future</h6><br>
-                        <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article 
+      </div>
+    </section>
+    <!-- Efforts meets oppurtunities -->
+    <section class="container-fluid content-6 d-none d-md-block p-5 py-3">
+      <p class="text-center t2-bold text-uppercase">When efforts meet opportunities</p>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/main-content/8.jpg" class="w-100">
+        </div>
+        <div class="col-md-6">
+          <p class="content-6-title text-uppercase">CUMMINS SCHOLARSHIP PROGRAM</p>
+          <p class="t3-bold">Nurturing Brilliance</p>
+          <a href="#" class="btn col-6 text-uppercase fw-bolder text-start p-0">learn more
+            <i class="fa-solid fa-chevron-right ms-3"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- Always Trusted | Carousel 2-->
+    <section class="container content-5 mt-5">
+      <p class="text-center t2-bold text-uppercase">always Trusted</p>
+      <!-- Multi Item Carousel -->
+      <div class="container text-center my-3">
+        <div class="row mx-auto my-auto justify-content-center">
+          <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-lg-4 text-center vertical-center ">
+                  <div class="row">
+                    <div class="col-5 vertical-center">
+                      <img src="images/main-content/13.jpg" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-7 row-text text-start">
+                      <p class="content-5-title">JUN 20, 2022</p>
+                      <p class="t6-bold">Credible Path to Decarbonized Future</h6><br>
+                        <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article
                           <i class="fa-solid fa-chevron-right ms-2"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-lg-4 text-center vertical-center ">
-                    <div class="row">
-                      <div class="col-5 vertical-center">
-                        <img src="images/main-content/12.jpg" class="img-fluid rounded-circle">
-                      </div>
-                      <div class="col-7 row-text text-start">
-                        <p class="content-5-title">JAN 20, 2023</p>
-                        <p class="t6-bold">Cummins natural gas engines trasport more thann 150 million people in North India for 15 years</h6><br>
-                          <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article 
-                            <i class="fa-solid fa-chevron-right ms-3"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-lg-4 text-center vertical-center ">
-                    <div class="row">
-                      <div class="col-5 vertical-center">
-                        <img src="images/main-content/11.jpg" class="img-fluid rounded-circle">
-                      </div>
-                      <div class="col-7 row-text text-start">
-                        <p class="content-5-title">OCT 01, 2021</p>
-                        <p class="t6-bold">Cummins delivers 30,000<sup>th</sup> vaccine dose in India</h6><br>
-                          <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article 
-                            <i class="fa-solid fa-chevron-right ms-3"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-lg-4 text-center vertical-center ">
-                    <div class="row">
-                      <div class="col-5 vertical-center">
-                        <img src="images/main-content/13.jpg" class="img-fluid rounded-circle">
-                      </div>
-                      <div class="col-7 row-text text-start">
-                        <p class="content-5-title">JUN 25, 2021</p>
-                        <p class="t6-bold">Cummins Inc. reaches COVID-19 vaccination milestone with mobile on-site clinics</h6><br>
-                          <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article 
-                            <i class="fa-solid fa-chevron-right ms-3"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-lg-4 text-center vertical-center ">
-                    <div class="row">
-                      <div class="col-5 vertical-center">
-                        <img src="images/main-content/13.jpg" class="img-fluid rounded-circle">
-                      </div>
-                      <div class="col-7 row-text text-start">
-                        <p class="content-5-title">SEP 06, 2019</p>
-                        <p class="t6-bold">Powering the final frontier: A wuest to return to the moon</h6><br>
-                          <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article 
-                            <i class="fa-solid fa-chevron-right ms-3"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-lg-4 text-center vertical-center ">
-                    <div class="row">
-                      <div class="col-5 vertical-center">
-                        <img src="images/main-content/13.jpg" class="img-fluid rounded-circle">
-                      </div>
-                      <div class="col-7 row-text text-start">
-                        <p class="content-5-title">MAY 01, 2012</p>
-                        <p class="t6-bold">Reducing traffic in Pune</h6><br>
-                          <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article 
-                            <i class="fa-solid fa-chevron-right ms-2"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-lg-4 text-center vertical-center ">
-                    <div class="row">
-                      <div class="col-5 vertical-center">
-                        <img src="images/main-content/13.jpg" class="img-fluid rounded-circle">
-                      </div>
-                      <div class="col-7 row-text text-start">
-                        <p class="content-5-title">MAY 01, 2012</p>
-                        <p class="t6-bold">Bamboo project reshapes rural India</h6><br>
-                          <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article 
-                            <i class="fa-solid fa-chevron-right ms-2"></i></a>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              </a>
-              <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              </a>
+              <div class="carousel-item">
+                <div class="col-lg-4 text-center vertical-center ">
+                  <div class="row">
+                    <div class="col-5 vertical-center">
+                      <img src="images/main-content/12.jpg" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-7 row-text text-start">
+                      <p class="content-5-title">JAN 20, 2023</p>
+                      <p class="t6-bold">Cummins natural gas engines trasport more thann 150 million people in North
+                        India for 15 years</h6><br>
+                        <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article
+                          <i class="fa-solid fa-chevron-right ms-3"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-4 text-center vertical-center ">
+                  <div class="row">
+                    <div class="col-5 vertical-center">
+                      <img src="images/main-content/11.jpg" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-7 row-text text-start">
+                      <p class="content-5-title">OCT 01, 2021</p>
+                      <p class="t6-bold">Cummins delivers 30,000<sup>th</sup> vaccine dose in India</h6><br>
+                        <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article
+                          <i class="fa-solid fa-chevron-right ms-3"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-4 text-center vertical-center ">
+                  <div class="row">
+                    <div class="col-5 vertical-center">
+                      <img src="images/main-content/13.jpg" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-7 row-text text-start">
+                      <p class="content-5-title">JUN 25, 2021</p>
+                      <p class="t6-bold">Cummins Inc. reaches COVID-19 vaccination milestone with mobile on-site clinics
+                        </h6><br>
+                        <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article
+                          <i class="fa-solid fa-chevron-right ms-3"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-4 text-center vertical-center ">
+                  <div class="row">
+                    <div class="col-5 vertical-center">
+                      <img src="images/main-content/13.jpg" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-7 row-text text-start">
+                      <p class="content-5-title">SEP 06, 2019</p>
+                      <p class="t6-bold">Powering the final frontier: A wuest to return to the moon</h6><br>
+                        <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article
+                          <i class="fa-solid fa-chevron-right ms-3"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-4 text-center vertical-center ">
+                  <div class="row">
+                    <div class="col-5 vertical-center">
+                      <img src="images/main-content/13.jpg" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-7 row-text text-start">
+                      <p class="content-5-title">MAY 01, 2012</p>
+                      <p class="t6-bold">Reducing traffic in Pune</h6><br>
+                        <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article
+                          <i class="fa-solid fa-chevron-right ms-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-4 text-center vertical-center ">
+                  <div class="row">
+                    <div class="col-5 vertical-center">
+                      <img src="images/main-content/13.jpg" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col-7 row-text text-start">
+                      <p class="content-5-title">MAY 01, 2012</p>
+                      <p class="t6-bold">Bamboo project reshapes rural India</h6><br>
+                        <a href="#" class="btn col-12 text-uppercase fw-bolder text-start p-0">read article
+                          <i class="fa-solid fa-chevron-right ms-2"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>		
-        </div>
-        <div></div>
-      </section>
-      <!-- See All News -->
-      <section class="container p-4 mt-5">
-        <div class="d-flex justify-content-around align-items-center">
-          <hr class="hr w-50">
-          <button class="btn text-uppercase text-nowrap shadow-lg border-opacity-50 border-dark mx-4 fw-bolder see-btn rounded-pill py-3">see all news</button>
-          <hr class="hr w-50">
-        </div>
-      </section>
-      <!-- Connect With Us -->
-      <section class="container-fluid connect-box mt-5">
-        <p class="text-center t2-bold text-uppercase mb-1 mb-md-4">connect with us</p>
-        <div class="row connect-icon-box text-center justify-content-center">
-          <div class="col-md-4 col-sm-6 mt-3 mt-md-0"><div class="d-flex justify-content-center align-items-center align-items-md-baseline"><i class="fa-solid fa-phone"></i><p class="t4-bold ms-3">Get Support</p></div></div>
-          <div class="col-md-4 col-sm-6 mt-3 mt-md-0"><div class="d-flex justify-content-center align-items-center align-items-md-baseline"><i class="fa-solid fa-file"></i><p class="t4-bold ms-3">Contact Sales</p></div></div>
-          <div class="col-md-4 col-sm-6 mt-3 mt-md-0"><div class="d-flex justify-content-center align-items-center align-items-md-baseline"><i class="fa-solid fa-location-dot"></i><p class="t4-bold ms-3">Dealer Locator</p></div></div>
-        </div>
-      </section>
-      <!-- Footer -->
-      <footer class="container-fluid bg-black overflow-hidden">
-        <div class="row pt-5">
-          <div class="col-md-3 text-start p-0">
-            <ul class="left-section d-flex justify-content-md-evenly justify-content-center p-0">
-              <li><a href="#" class=" px-3 p-md-0">News</a></li>
-              <li><a href="#" class=" px-3 p-md-0">Partners</a></li>
-              <li><a href="#" class=" px-3 p-md-0">Careers</a></li>
-              <li><a href="#" class=" px-3 p-md-0">Support</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 d-none d-md-inline"></div>
-          <div class="col-md-3 d-none d-md-inline"></div>
-          <div class="col-md-3 p-0">
-            <ul class="right-section d-flex justify-content-md-evenly justify-content-center p-0">
-              <li><a href="#"><i class="fa-brands fa-twitter px-3 p-md-0"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-facebook  px-3 p-md-0"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-youtube  px-3 p-md-0"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-linkedin-in  px-3 p-md-0"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-instagram  px-3 p-md-0"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-md-6 mx-4 p-0"><p>&copy; 2023 Cummins Inc., Box 3005, Columbus, IN 47202-3005 U.S.A.</p></div>
-        </div>
-        <div class="row p-0">
-          <div class="col-md-6 p-0">
-            <ul class="d-flex justify-content-md-startcenter justify-content-start ul3">
-              <li><a href="#" class="text-decoration-underline a1 pe-1 p-0">Accessibility</a></li>
-              <li><a href="#" class="text-decoration-underline a1 p-1">Privacy Policy</a></li>
-              <li><a href="#" class="text-decoration-underline a1 p-1">Terms of Use</a></li>
-              <li><a href="#" class="text-decoration-underline a1 p-1">Cookie Notice</a></li>
-              <li><a href="#" class="text-decoration-underline a1 p-1">Site Map</a></li>
-            </ul>
+            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
           </div>
         </div>
-      </footer>
-    </main>
-    <script src="./main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+      </div>
+    </section>
+    <!-- See All News -->
+    <section class="container p-4 mt-5">
+      <div class="d-flex justify-content-around align-items-center">
+        <hr class="hr w-50">
+        <button
+          class="btn text-uppercase text-nowrap shadow-lg border-opacity-50 border-dark mx-4 fw-bolder see-btn rounded-pill py-3">see
+          all news</button>
+        <hr class="hr w-50">
+      </div>
+    </section>
+    <!-- Connect With Us -->
+    <section class="container-fluid connect-box mt-5">
+      <p class="text-center t2-bold text-uppercase mb-1 mb-md-4">connect with us</p>
+      <div class="row connect-icon-box text-center justify-content-center">
+        <div class="col-md-4 col-sm-6 mt-3 mt-md-0">
+          <div class="d-flex justify-content-center align-items-center align-items-md-baseline"><i
+              class="fa-solid fa-phone"></i>
+            <p class="t4-bold ms-3">Get Support</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mt-3 mt-md-0">
+          <div class="d-flex justify-content-center align-items-center align-items-md-baseline"><i
+              class="fa-solid fa-file"></i>
+            <p class="t4-bold ms-3">Contact Sales</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mt-3 mt-md-0">
+          <div class="d-flex justify-content-center align-items-center align-items-md-baseline"><i
+              class="fa-solid fa-location-dot"></i>
+            <p class="t4-bold ms-3">Dealer Locator</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="container-fluid bg-black overflow-hidden">
+      <div class="row pt-5">
+        <div class="col-md-3 text-start p-0">
+          <ul class="left-section d-flex justify-content-md-evenly justify-content-center p-0">
+            <li><a href="#" class=" px-3 p-md-0">News</a></li>
+            <li><a href="#" class=" px-3 p-md-0">Partners</a></li>
+            <li><a href="#" class=" px-3 p-md-0">Careers</a></li>
+            <li><a href="#" class=" px-3 p-md-0">Support</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 d-none d-md-inline"></div>
+        <div class="col-md-3 d-none d-md-inline"></div>
+        <div class="col-md-3 p-0">
+          <ul class="right-section d-flex justify-content-md-evenly justify-content-center p-0">
+            <li><a href="#"><i class="fa-brands fa-twitter px-3 p-md-0"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook  px-3 p-md-0"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube  px-3 p-md-0"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in  px-3 p-md-0"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram  px-3 p-md-0"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 mx-4 p-0">
+          <p>&copy; 2023 Cummins Inc., Box 3005, Columbus, IN 47202-3005 U.S.A.</p>
+        </div>
+      </div>
+      <div class="row p-0">
+        <div class="col-md-6 p-0">
+          <ul class="d-flex justify-content-md-startcenter justify-content-start ul3">
+            <li><a href="#" class="text-decoration-underline a1 pe-1 p-0">Accessibility</a></li>
+            <li><a href="#" class="text-decoration-underline a1 p-1">Privacy Policy</a></li>
+            <li><a href="#" class="text-decoration-underline a1 p-1">Terms of Use</a></li>
+            <li><a href="#" class="text-decoration-underline a1 p-1">Cookie Notice</a></li>
+            <li><a href="#" class="text-decoration-underline a1 p-1">Site Map</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
