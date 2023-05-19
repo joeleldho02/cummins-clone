@@ -486,7 +486,7 @@ a{
 .content-4 .card-img-overlay{
     top:80px;
     left:50px;
-    z-index: 2;;
+    z-index: 2;
 }
 .content-4 .card img,
 .content-4 .card,
@@ -538,7 +538,16 @@ a{
     font-size: 29px;
     font-weight: 900;
 }
-
+@media (max-width:1176px) and (min-width: 768px){
+    .content-4 .card-img-overlay .t6-bold{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .content-4 .card-img-overlay{
+        top:50px;
+        left:40px;
+    }
+}
 .content-6 .t3-bold{
     font-size: 29px;
 }
