@@ -22,7 +22,7 @@ a{
 }
 .t1-bold{
     font-weight:900;
-    font-size: 82px;
+    font-size: 80px;
 }
 .t2-bold{
     font-weight:900;
@@ -421,6 +421,15 @@ a{
         width:100%;
     }
 }
+@media (max-width:1023px) and (min-width: 768px){
+    .hero-container .overlay-div{
+        top:30%;
+        left:150px;
+    }
+    .hero-container .overlay-div .t2-bold{
+        line-height: 45px;
+    }
+}
 
 /* Content 1 */
 .content-1 img,
@@ -459,13 +468,18 @@ a{
     .content-3 h2{
         text-align: center;
     }
+    .content-3 .overlay-div .t1-bold{
+        font-size:40px;
+        font-weight: 900;
+        line-height: 40px;
+    }
 }
 
 .content-4 .card{
     transition: 0.5s;
     cursor: pointer;
     background: rgb(0,0,0);
-    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%),
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%, rgba(0,0,0,1) 0%),
      url(images/main-content/6.jpg);
     width: 48%;
 }
@@ -484,7 +498,6 @@ a{
     .content-2 img{
         border-radius: 0px 0px 20px 20px;
     }
-    .content-4 .card img,
     .content-4 .card{
         height: 37vh;
         width:90%;
@@ -498,7 +511,7 @@ a{
         background-size: 170%;
         background-repeat: no-repeat;
         background-position: 50% 0%;
-        background-image: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(255,255,255,0) 100%),
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(255,255,255,0) 100%),
          url(images/main-content/6.jpg);   
     }
     .content-4 .bottom-card{
@@ -506,8 +519,8 @@ a{
          url(images/main-content/7.jpg);   
     }
     .content-4 .card-img-overlay{
-        bottom:20px;
-        left:20px;
+        bottom:50px;
+        left:10px;
     }
     .content-4-title{
         font-size:13px;
@@ -562,6 +575,9 @@ a{
 .content-5 .btn i:hover{
     translate: 20% 0%;
 }
+.content-5 .carousel-inner .carousel-item {
+    transition: 0.5s;
+}
 /* Multi Item Carousel */
 
 @media (max-width: 767px) {
@@ -570,6 +586,9 @@ a{
     }
     .content-5 .carousel-inner .carousel-item > div:first-child {
         display: block;
+    }
+    .content-5-title::after{
+        margin: auto;
     }
 }
 
